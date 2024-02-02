@@ -37,8 +37,8 @@ int main() {
         "With the C++ Syntax already learned, I started to learn how to properly use C++,",
         "it was 2022 and I planned how I could learn C++ practically with something fun.",
         "At first, I made some programs to calculate game related values using only the basics.",
-        "After that, I made some simpler games like Chess & Snake, but spiced it up, by using extensive",
-        "amounts of OOP & Pointers. Later, I also started learning Vulkan, which is a Graphics API."
+        "After that, I made some simpler games like Chess & Snake, but spiced it up,",
+        "by using extensive amounts of OOP & Pointers."
         }, false, true, 1);
     builder.addCursor("c++learn", "c++", clearnInfo);
 
@@ -95,7 +95,7 @@ int main() {
         "Once i was sixteen in 2019 I was looking into game engines to pursuit this idea.",
         "Unreal Engine sounded cool, but very complicated, so I went with Unity,",
         "and I had to make some simple scripts to even get started, so I looked into C#.",
-        "As already mentioned, I was getting bored of C# in so I started, not all to deep into C#,",
+        "As already mentioned, I was getting bored of C# so I started, not all to deep into C#,",
         "to learn C++ with the same mentality of wanting the hard way."
         }, false, true, 1);
     builder.addCursor("csharpintro", "csharp", csharpintroInfo);
@@ -175,11 +175,11 @@ int main() {
         "",
         "Born 23rd of March 2023",
         "Age 20 Years",
-        "C++ Experience > 2 Years",
-        "Java Experience > 2 Years",
-        "General Tinkering Knowledge > 12 Years",
+        "C++ Experience > 3 Years",
+        "Java Experience > 3 Years",
+        "General Tinkering Knowledge > 13 Years",
         "SoloLearn C++ Certificate 2021",
-        "2.2 Average Grades, ~85%"
+        "2.2 Average Grades, 80%"
         }, false, true, 1);
     builder.addCursor("tom", "main", tomInfo);
 
