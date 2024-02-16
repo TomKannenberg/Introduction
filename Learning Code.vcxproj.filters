@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TomKannenbergCpp.cpp">
+    <ClCompile Include="CodeJourney.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TKCursor\TKCursor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TKMenu\TKMenu.cpp">
@@ -24,18 +27,15 @@
     <ClCompile Include="TKUtility\TKUtility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TKCursor\TKCursor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="TKCursor\TKCursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="TKMenu\TKMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TKUtility\TKUtility.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TKCursor\TKCursor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
