@@ -18,7 +18,7 @@ int main() {
         "Proficient in Java",
         "Proficient C#",
         "Proficient in Scripting Languages",
-        "Familiar with MySQL",
+        "Familiar with SQL",
         "Experience with Hardware, Computers & Servers",
         "Basic Experience with Graphics libraries",
         "Experience with Windows",
@@ -199,11 +199,11 @@ int main() {
         "ZomWy essentially is a Bot that is not fully automate but rather in",
         "Controll of the other players in your tribe, so you may go asleep and",
         "still be useful to your tribemates, you set a Discord Channel, they say",
-        "Farm Stone, Farm Metal and the bot starts hitting Rocks and filter items",
-        "to be dropped depending on what we are farming, efficiently farming the",
+        "Farm Stone, Farm Metal and the bot starts hitting Rocks and filters items",
+        "to be dropped depending on what we are farming rn, efficiently farming the",
         "most materials possible using only one instead of 2 players.",
         "The ZomWy Server application communicates through ZMQ to the Client and",
-        "and through DPP to Discord also has selfmade anti proxy and ddos protection."
+        "through DPP to Discord, also has selfmade anti proxy and ddos protection."
         }, false, true, 1);
     builder.addCursor("zw", "creative", zwInfo);
 
@@ -220,7 +220,7 @@ int main() {
         "Threaded Optimizations. I started on my laptop on a 3 hour car ride after",
         "which I could successfully extract all textures from the archive containing",
         "encrypted subarchives in less than 30seconds, a few days later I got to work",
-        "on optimizing it bringing it down to 0.11 seconds on my PC and 0.45 seconds on my Laptop!"
+        "on optimizing it bringing it down to .11 seconds on my PC and .45 seconds on my Laptop!"
         }, false, true, 1);
     builder.addCursor("xpac", "creative", xpacInfo);
 
@@ -259,19 +259,21 @@ int main() {
     builder.addCursor("imgui", "creative", imguiInfo);
 
     //SkylanderEmulator
-    CursorInfo skylanderInfo({ 1, 12 }, {
+    CursorInfo skylanderInfo({ 1, 14 }, {
         "SkylanderEmulator,",
         "",
-        "One of my First 2024 Projects will be an Android Java & C++ App with",
-        "a C++ USB Emulator as backend, connecting the phone with the backend to",
-        "be able to play as your favorite Skylander on any Emulator you want.",
+        "One of my First 2024 Projects was an Android Java & C++ App with",
+        "a C++ TDP Receiver as backend, connecting the phone with the backend to",
+        "be able to play as your favorite Skylander on either RPCS3 or CEMU. (my custom builds)",
         "At first I went into NFC and looked at how the figures are read by the portal",
         "but after a while I though emulating Single Skylanders would be to Gimmicky",
         "So I thought instead I emulate the Portal and controll all skylanders from",
         "From the phone. I got the Idea whilest playing on RPCS3, which has an awesome",
         "Inbuilt Skylanders Emulator, the problem I see with it is that you need to find",
         "the files of your skylander every time you want to switch and it's less immersive.",
-        "My Goal with this project is to make the Skylander games feel more Immersive on PC."
+        "My Goal with this project was to make the Skylander games feel more Immersive on PC.",
+        "Now where I got almost all Skylanders and Traps in the App, I'm confident that",
+        "this is the 2nd most immersive way to play Skylanders. (not trying to compete with the toys)"
         }, false, true, 1);
     builder.addCursor("skylander", "creative", skylanderInfo);
 
@@ -280,13 +282,13 @@ int main() {
         "Zif Pattern,",
         "",
         "This Script is in ImHex's Pattern Language, which I do really like!",
-        "Making Structs and functions in a C style manner is really fun and",
+        "Making Structs and functions in a C / Rust style manner is really fun and",
         "the visualization makes things a lot easier when reverse engineering a",
         "file format! The Zif format is one of the formats extracted out of my",
         "XPAC Tool, it holds Logic of the counterpart .zig which in turn holds",
         "Data like textures and 3D models / Animations. The challenge in this",
-        "Project was that due to it's unique and creative syntax I had to learn",
-        "as I progressed, I had to work with the Documentation and had lots of fun.",
+        "Project was that due to it's unique and creative syntax I had to learn.",
+        "As I progressed, I worked with the Documentation and had lots of fun.",
         }, false, true, 1);
     builder.addCursor("zif", "creative", zifInfo);
 
@@ -295,15 +297,19 @@ int main() {
     builder.addCursor("creative", "main", creativeInfo);
 
     //Tom History Page
-    CursorInfo tomInfo({ 1, 9 }, {
+    CursorInfo tomInfo({ 1, 13 }, {
         "Tom Kannenberg",
         "",
         "Born 23rd of March 2023",
-        "Age 20 Years",
-        "C++ Experience > 3 Years",
-        "Java Experience > 3 Years",
-        "General Tinkering Knowledge > 13 Years",
+        "Age 21 Years",
+        "C++ Experience 3+ Years",
+        "Java Experience 3+ Years",
+        "General Tinkering Knowledge 14+ Years",
         "SoloLearn C++ Certificate 2021",
+        "SoloLearn Advanced C++ Certificate 2024",
+        "SoloLearn Advanced C Certificate 2024",
+        "SoloLearn Advanced C# Certificate 2024",
+        "SoloLearn Advanced Python Certificate 2024",
         "2.2 Average Grades, 80%"
         }, false, true, 1);
     builder.addCursor("tom", "main", tomInfo);
