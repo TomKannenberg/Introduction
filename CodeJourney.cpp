@@ -310,7 +310,7 @@ int main() {
         "SoloLearn Advanced C Certificate 2024",
         "SoloLearn Advanced C# Certificate 2024",
         "SoloLearn Advanced Python Certificate 2024",
-        "2.2 Average Grades, 80%"
+        "2.2 Average Grades, 84%"
         }, false, true, 1);
     builder.addCursor("tom", "main", tomInfo);
 
