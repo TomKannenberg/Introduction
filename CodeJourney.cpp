@@ -197,7 +197,7 @@ int main() {
         "For the Game Ark Survival Ascended me and a buddy came together and",
         "made a seamless connection between Discord, a Client and the Game.",
         "ZomWy essentially is a Bot that is not fully automate but rather in",
-        "Controll of the other players in your tribe, so you may go asleep and",
+        "Control of the other players in your tribe, so you may go asleep and",
         "still be useful to your tribemates, you set a Discord Channel, they say",
         "Farm Stone, Farm Metal and the bot starts hitting Rocks and filters items",
         "to be dropped depending on what we are farming rn, efficiently farming the",
